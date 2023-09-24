@@ -61,11 +61,10 @@ if "%key%"=="-72" (
 cls
 if %selectedOption% equ 0 (
   @echo off
-  cd /d D:\codeman
+  echo Loading...
   bash
 ) else if %selectedOption% equ 1 (
   @echo off
-  cd /d D:\codeman
   title Command Prompt
   cmd
 )
